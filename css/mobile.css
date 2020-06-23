@@ -55,12 +55,12 @@
     width: 100%;
   }
     
-  input[type=text] {
+  .text {
     width: 100%;
     margin: 4px 0px;
   }
   
-  #tel {
+  .tel {
     width: 410px;
     margin-top: 8px;
   }
@@ -70,7 +70,7 @@
     margin-bottom: 1px;
   }
   
-  #state {
+  .state {
     width: 100%;
     margin: 5px 0px;
   }
@@ -102,7 +102,7 @@
     float: right;
   }
   
-  #cs-logo {
+  .cs-logo {
     width: 210px;
     margin-left: 30px;
   }
@@ -110,7 +110,7 @@
     width: 600px;
   }
   
-  #img-down {
+  .img-down {
     width: 120px;
     height: 80px;
     padding: 20px 0px;
@@ -132,7 +132,7 @@
     margin-bottom: 10px;
   }
   
-  #img-banner {
+  .img-banner {
     width: 750px;
     margin-top: 60px;
     height: auto;

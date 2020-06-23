@@ -9,18 +9,10 @@ body {
   border-bottom: 1px solid #cbcbcb;
 }
 
-#form-color {
-  background-color: white;
-}
-
 .icon-bar { 
   background-color: black;
   padding: 0px;
   border: none;   
-}
-
-#pl-2 {
-  margin-top: 3px;
 }
 
 .navbar-toggle .icon-bar {
@@ -39,14 +31,14 @@ body {
   margin-right: 10px;     
 }
 
-#img-banner {
+.img-banner {
   width: 100%;
   z-index: -1;
   margin-top: 73px;
   position: relative;    
 }
 
-#cs-logo {
+.cs-logo {
   width: 320px;
   margin-top: 14px;
   margin-left: 10px;
@@ -87,7 +79,7 @@ h1 {
 }
 
 
-input[type=text], input[type=password] {
+.text {
   width: 325px;
   height: 35px;
   padding: 6px 6px;
@@ -101,10 +93,29 @@ input[type=text], input[type=password] {
   font-weight: 200;
   font-family: Ubuntu,sans-serif;
   font-size: 13px;
+
+}
+
+.tel {
+  width: 325px;
+  height: 35px;
+  padding: 6px 6px;
+  margin: 12px 0px;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  border-radius: 6px;
+  text-align: left;
+  color: #8c8c8c;
+  font-weight: 200;
+  font-family: Ubuntu,sans-serif;
+  font-size: 13px;
+
 }
 
 
-#state {
+
+.state {
   width: 325px;
   height: 35px;
   padding: 6px 10px;
@@ -144,15 +155,6 @@ h2 {
   padding-bottom: 10px;
 }
 
-#sign {
-  background-color: #4CAF50;
-  color: white;
-  padding: 6px 10px;
-  margin: 8px 0;
-  border: none;
-  cursor: pointer;
-  width: 100%;
-}
 
 .btn-info {
   background-color: #4CAF50;
@@ -201,18 +203,18 @@ hr {
   padding: 60px 50px;
 }
 
-#img-down {
+.img-down {
   height: 50px;
   width: 100px;
   padding: 0px 0px;
 }
 
-#img-footer {
+.img-footer {
   width: 180px;
   padding-left:15px;
 }
 
-#tag {
+.pd-10 {
   padding: 10px 16px;
   color:#484848;
 }
@@ -239,7 +241,7 @@ hr {
   margin-top: -20px;
 }
 
-#img-down {
+.img-down {
   height: 120px;
   width: 180px;
   padding:20px 20px;
@@ -304,13 +306,6 @@ hr {
   -webkit-transform: rotate(45deg);
 }
 
-
-#b {
-  width: 287px;
-  float: right;
-  margin-top: -34px;
-}
-
 .btn-outline-secondary {
   width: 50px;
   margin-top: 20px;
@@ -318,16 +313,11 @@ hr {
   border: 1px solid #ccc;
 }
 
-#in {
-  height: 12px;
-  width: 15px;
-}
-
 .btn-sec {
   background-color: #fff;
 }
 
-#bg-color{
+.bg-color{
   background-color: #fff;
 }
 
@@ -348,5 +338,35 @@ form {
   margin-right: 15px;
   margin-top: 8px;
 }
+
+
+.intl-tel-input {
+  display: table-cell;
+  border: 2px solid black;
+}
+
+.intl-tel-input .selected-flag {
+  z-index: 4;
+}
+
+.intl-tel-input .country-list {
+  z-index: 5;
+ 
+}
+
+
+
+.pt {
+  margin-top: 12px ;
+  margin-bottom: 10px;
+  
+}
+
+.iti__selected-flag {
+  border-right: 1px solid #ccc ;
+  width: 50px;
+}
+
+
 
 
